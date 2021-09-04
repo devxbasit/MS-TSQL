@@ -1,0 +1,4 @@
+----------------------------------------------------------------------------------------------------
+--full text index
+-- clustered/non clustered does not improve preformance in LIKE 'X%__i_'
+-- for faster text lookup e.g LIKE '%ik__'
